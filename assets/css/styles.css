@@ -1,0 +1,91 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+.about-me {
+  color: #696969;
+  padding: 0 20px 20px;
+  width: 40%;
+}
+
+.about-me img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  padding: 40px 20px;
+}
+
+.about-me h1 {
+  color: #4a4e51;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.5em;
+}
+
+.about-me h3 {
+  color: #696969;
+  padding: 30px 0;
+}
+
+.about-me ul {
+  padding: 10px;
+}
+
+.about-me li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+/* 769 - 991 sizing param for .com fix */
+
+.list-titles {
+  float: left;
+  text-align: right;
+  font-weight: 600;
+  width: 30%;
+  color: #4a4e51;
+}
+
+.list-content {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .profile .list-content {
+    margin-left: -20px;
+  }
+}
+
+.experience {
+  background-color: lightblue;
+  padding: 20px;
+  width: 60%;
+}
+
+.portfolio {
+  clear: both;
+  display: flex;
+  background-color: plum;
+  padding: 20px;
+  width: 100%;
+}
+
+/* @media(){
+  as size reduces, number of cards do too
+} */
+
+/* 769 - 991*/
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+  .about-me {
+    width: 100%;
+  }
+  .experience {
+    width: 100%;
+  }
+}
