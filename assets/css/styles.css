@@ -5,6 +5,7 @@ body {
 }
 
 /* ABOUT ME SECTION */
+
 .about-me {
   color: #696969;
   padding: 0 20px 20px;
@@ -51,6 +52,7 @@ body {
   width: 70%;
   text-align: left;
 }
+
 /* EDUCATION AND EXPERIENCE SECTION */
 
 .experience {
@@ -59,24 +61,29 @@ body {
   padding: 20px;
   width: 60%;
 }
+
 .experience h5 {
   color: #66cc99;
 }
+
 .company-wrapper {
   width: 30%;
   float: left;
   text-align: left;
+  margin-bottom: 60px;
 }
+
 .job-wrapper {
   width: 70%;
   float: left;
   text-align: left;
   padding-right: 5%;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
+
 .job-title {
   color: #ccc;
-  font-size: 1.2em;
+  font-size: 1.125em;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -88,10 +95,12 @@ body {
   padding: 0 40px;
   padding-bottom: 40px;
 }
+
 .port-exp-edu-title {
   padding: 50px 0 20px 0;
   color: #66cc99;
 }
+
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -108,13 +117,17 @@ body {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
   .company-wrapper {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .job-wrapper {
     width: 100%;
+    margin-bottom: 40px;
   }
 }
