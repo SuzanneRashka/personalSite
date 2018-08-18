@@ -1,7 +1,9 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   height: 100%;
+  padding: 1rem 0;
 }
+
 /* ABOUT ME SECTION */
 .about-me {
   color: #696969;
@@ -50,8 +52,7 @@ body {
   text-align: left;
 }
 /* EDUCATION AND EXPERIENCE SECTION */
-/* desc #999999 */
-/* header #fff */
+
 .experience {
   background-color: #3d3e42;
   color: #999999;
@@ -61,12 +62,23 @@ body {
 .experience h5 {
   color: #66cc99;
 }
-
-.head-title {
-  color: #fff;
+.company-wrapper {
+  width: 30%;
+  float: left;
+  text-align: left;
 }
-.main-title {
-  color: #66cc99;
+.job-wrapper {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+.job-title {
+  color: #ccc;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 /* PROJECTS GALLERY SECTION */
@@ -76,9 +88,13 @@ body {
   padding: 0 40px;
   padding-bottom: 40px;
 }
-.portfolio h5 {
+.port-exp-edu-title {
   padding: 50px 0 20px 0;
   color: #66cc99;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -89,6 +105,16 @@ body {
     width: 100%;
   }
   .experience {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .company-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .job-wrapper {
     width: 100%;
   }
 }
