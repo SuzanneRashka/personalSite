@@ -1,8 +1,8 @@
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   height: 100%;
 }
-
+/* ABOUT ME SECTION */
 .about-me {
   color: #696969;
   padding: 0 20px 20px;
@@ -18,7 +18,7 @@ body {
 
 .about-me h1 {
   color: #4a4e51;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-size: 2.5em;
 }
 
@@ -36,8 +36,6 @@ body {
   padding: 5px 0;
 }
 
-/* 769 - 991 sizing param for .com fix */
-
 .list-titles {
   float: left;
   text-align: right;
@@ -51,32 +49,37 @@ body {
   width: 70%;
   text-align: left;
 }
-
-@media (max-width: 1200px) {
-  .profile .list-content {
-    margin-left: -20px;
-  }
-}
-
+/* EDUCATION AND EXPERIENCE SECTION */
+/* desc #999999 */
+/* header #fff */
 .experience {
-  background-color: lightblue;
+  background-color: #3d3e42;
+  color: #999999;
   padding: 20px;
   width: 60%;
 }
-
-.portfolio {
-  clear: both;
-  display: flex;
-  background-color: plum;
-  padding: 20px;
-  width: 100%;
+.experience h5 {
+  color: #66cc99;
 }
 
-/* @media(){
-  as size reduces, number of cards do too
-} */
+.head-title {
+  color: #fff;
+}
+.main-title {
+  color: #66cc99;
+}
 
-/* 769 - 991*/
+/* PROJECTS GALLERY SECTION */
+
+.portfolio {
+  background-color: #3d3e42;
+  padding: 0 40px;
+  padding-bottom: 40px;
+}
+.portfolio h5 {
+  padding: 50px 0 20px 0;
+  color: #66cc99;
+}
 
 @media (max-width: 768px) {
   body {
