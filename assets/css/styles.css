@@ -43,13 +43,13 @@ body {
   float: left;
   text-align: right;
   font-weight: 600;
-  width: 30%;
+  width: 20%;
   color: #4a4e51;
 }
 
 .list-content {
   float: left;
-  width: 70%;
+  width: 80%;
   text-align: left;
 }
 
@@ -110,9 +110,11 @@ body {
   body {
     margin: 20px;
   }
+
   .about-me {
     width: 100%;
   }
+
   .experience {
     width: 100%;
   }
@@ -134,9 +136,10 @@ body {
 
 @media (max-width:768px) {
   .list-titles {
-    width: 50%;
+    width: 40%;
   }
+
   .list-content {
-    width: 50%;
+    width: 60%;
   }
 }
